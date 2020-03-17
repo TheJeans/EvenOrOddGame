@@ -57,7 +57,7 @@ public class EvenOrOdd {
             System.out.println(sum+" is ... Odd!");
         }
 
-        // WINNER
+        // ANNOUNCE WINNER
         if (((res)&&(x.equalsIgnoreCase("e")))||((!res)&&(x.equalsIgnoreCase("o")))){
             System.out.println("You Win!");
         }
