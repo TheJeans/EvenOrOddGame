@@ -49,11 +49,10 @@ public class EvenOrOdd {
 
         // RESULT
         boolean res=sum%2==0;
+        System.out.println(fingers+" + "+computer+" = "+sum);
         if (res){
-            System.out.println(fingers+" + "+computer+" = "+sum);
             System.out.println(sum+" is ... Even!");
         }else{
-            System.out.println(fingers+" + "+computer+" = "+sum);
             System.out.println(sum+" is ... Odd!");
         }
 
